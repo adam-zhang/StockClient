@@ -2,13 +2,13 @@
 #ifndef __MACROS__H
 #define __MACROS__H
 
-#define property(type, name) \
+#define property(type, name, method) \
 	private: \
 		type name##_; \
 	public: \
-		const type& set##name()const \
+		const type& name()const \
 		{ return name##_; } \
-		void set##name(const type& value) \
+		void method(const type& value) \
 		{ name##_ = value; }
 
 #endif//__MACROS__H

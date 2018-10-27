@@ -6,19 +6,19 @@
 
 class Stock
 {
-	property(QString, tsCode);
-	property(QString, symbol);
-	property(QString, name);
-	property(QString, area);
-	property(QString, industry);
-	property(QString, fullName);
-	property(QString, englishName);
-	property(QString, market);
-	property(QString, exchangeID);
-	property(QString, currencyType);
-	property(QString, listStatus);
-	property(QString, listDate);
-	property(QString, delistDate);
-	property(QString, isHS);
+	property(QString, tsCode, setTsCode);
+	property(QString, symbol, setSymbol);
+	property(QString, name, setName);
+	property(QString, area, setArea);
+	property(QString, industry, setIndustry);
+	property(QString, fullName, setFullName);
+	property(QString, englishName, setEnglishName);
+	property(QString, market, setMarket);
+	property(QString, exchangeID, setExchangeID);
+	property(QString, currencyType, setCurrencyType);
+	property(QString, listStatus, setListStatus);
+	property(QString, listDate, setListDate);
+	property(QString, delistDate, setDelistDate);
+	property(QString, isHS, setIsHS);
 };
 #endif//__STOCK__Hy
