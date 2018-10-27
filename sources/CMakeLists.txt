@@ -14,6 +14,8 @@ find_package(Qt5Widgets CONFIG REQUIRED)
 
 # Populate a CMake variable with the sources
 set(sources
+	CandleWidget.cpp
+	MainWidget.cpp
 	MainWindow.cpp
 	main.cpp
 	)

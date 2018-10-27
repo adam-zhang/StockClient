@@ -10,5 +10,7 @@ class MainWindow : public QMainWindow
 	public:
 		MainWindow();
 		~MainWindow();
+	private:
+		void initialize();
 };
 #endif//__MAINWINDOW_H
