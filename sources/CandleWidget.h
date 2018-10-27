@@ -10,7 +10,7 @@ class CandleWidget : public QWidget
 		CandleWidget(QWidget* parent);
 		~CandleWidget();
 	private:
-
+		void initialize();
 
 };
 #endif//__CANDLEWIDGET__H
