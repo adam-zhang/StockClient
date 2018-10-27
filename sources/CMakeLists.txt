@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.1.0)
-
 project(StockClient)
-
 # Find includes in corresponding build directories
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 # Instruct CMake to run moc automatically when needed
