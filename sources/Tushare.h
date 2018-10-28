@@ -3,6 +3,10 @@
 
 #include "Singleton.h"
 #include <QString>
+#include <memory>
+#include <vector>
+
+class Stock;
 
 class Tushare : public Singleton<Tushare>
 {
@@ -16,6 +20,7 @@ class Tushare : public Singleton<Tushare>
 		}	
 
 	public:
+		std::vector<std::shared_ptr<Stock>> stockBasic();
 
 	
 
