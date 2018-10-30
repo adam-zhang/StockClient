@@ -10,8 +10,7 @@ class Stock;
 class JsonParser
 {
 	public:
-		static std::vector<std::shared_ptr<Stock>>
-			parseStockBasic(const QString&);
+		static std::vector<std::shared_ptr<Stock>> parseStockBasic(const QString&);
 };
 
 #endif//__JSONPARSER__H

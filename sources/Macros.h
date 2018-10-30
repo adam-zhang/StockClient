@@ -2,7 +2,7 @@
 #ifndef __MACROS__H
 #define __MACROS__H
 
-#define property(type, name, method) \
+#define PROPERTY(type, name, method) \
 	private: \
 		type name##_; \
 	public: \
